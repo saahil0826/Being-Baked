@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("./resources/calibri font sv/Calibri Regular.ttf") format("truetype");
+}
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Calibri" !important;
+}
+
+.bg {
+  background-color: #e0e0e0;
+  height: calc(95vh);
+}
+
+.shadow {
+  -webkit-box-shadow: 0 4px 6px -6px black;
+  -moz-box-shadow: 0 4px 6px -6px black;
+  box-shadow: 0 4px 6px -6px black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  height: 5px;
+  width: 100%;
+border-bottom:1px solid black;
+font-size: 1.2em;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+width: 20%;
+}
+
+.logo img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+    width: 50%;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.container{
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.container h1{
+  font-weight: bold;
+  font-size: 5em;
+  margin-top: 1em;
+
+}
+.container h2{
+  font-size: 4em;
+    margin-top: 2em;
+}
+
+.container h3{
+  font-size: 2em;
+    margin-top: 2em;
+}
+
+span{
+  text-decoration: underline;
+}
+
+footer{
+  display: flex;
+  align-items:baseline;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.2em;
+}
+footer p{
+  width: 100%;
+padding: 1em;
+text-align: center;
+
+
+}
